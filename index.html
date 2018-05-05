@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Signature</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h4>Signature</h4>
+        <canvas id="canvas-signature" width="400" height="200"></canvas>
+        <div class="pencilLabel">Pen</div>
+        <div class="pencilPosition" id="black" onclick="color(this)"></div>
+        <div class="eraserLabel">Eraser</div>
+        <div class="eraserPosition" id="white" onclick="color(this)"></div>
+        <img id="savedSignature" style="position:absolute;top:10%;left:52%;" style="display:none;">
+
+        <button id="btnSignSave" class="btn btn-success btn-sm" onclick="save()">Save</button>
+        <button id="btnSignClear" class="btn btn-info btn-sm" onclick="erase()">Clear</button>
+
+    </div>
+    <!-- scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>

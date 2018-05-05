@@ -1,0 +1,49 @@
+canvas#canvas-signature {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border: 2px solid #DDD;
+}
+
+.eraserPosition {
+    position: absolute;
+    top: 57%;
+    left: 21%;
+    width: 15px;
+    height: 15px;
+    background: white;
+    border: 2px solid;
+}
+
+.eraserLabel {
+    position: absolute;
+    top: 54%;
+    left: 21%;
+}
+
+.pencilPosition {
+    position: absolute;
+    top: 57%;
+    left: 26%;
+    background: black;
+    width: 15px;
+    height: 15px;
+}
+
+.pencilLabel {
+    position: absolute;
+    top: 54%;
+    left: 26%;
+}
+
+.btn-success {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+
+.btn-info {
+    position: absolute;
+    top: 55%;
+    left: 15%;
+}
